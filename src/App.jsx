@@ -7,6 +7,8 @@ import { useState } from "react";
 function App() {
   const [count, setCount] = useState(1);
 
+  // getter f  setter f    <===  usestate
+
   return (
     <div>
       <h1>{count}</h1>
